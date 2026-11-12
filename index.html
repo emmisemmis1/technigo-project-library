@@ -3,11 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Don't forget to connect the CSS file -->
+   <link href="../technigo-project-library-main/style.css" rel="stylesheet" type="text/css" />
+   <link href="https://cdn.jsdelivr.net/npm/futura-font@1.0.0/styles.min.css" rel="stylesheet">
   <title>Library</title>
 </head>
 <body>
   <h1>Library</h1>
-  <!-- Don't forget to connect the JavaScript file -->
+
+<section class="filter">
+
+  <div class="genre" id="genre">
+     <h2>Filter by genre</h2>
+
+     <button class="genre-button">All genres</button>
+     <button class="genre-button">Fiction</button>
+     <button class="genre-button">Science Fiction</button>
+     <button class="genre-button">Fantasy</button>
+     <button class="genre-button">Adventure</button>
+     <button class="genre-button">Horror</button>
+     <button class="genre-button">Mystery</button>
+     <button class="genre-button">Dystopian</button>
+
+  </div>
+
+  <div class="rating" id="rating">
+
+     <h2>Sort by rating</h2>
+
+    <button class="sorting-button">Highest</button>
+    <button class="sorting-button">Lowest</button>
+
+  </div>
+
+  <div class ="random" id="random">
+    <h2>Don't know what you're in the mood for?</h2>
+   <button class="random-button" id="random-button">Let us select a book for you!</button>
+
+  </div>
+
+</section>
+
+<section class="books" id="books"></section>
+
+   <script src="../technigo-project-library-main/script.js"></script>
 </body>
 </html>
